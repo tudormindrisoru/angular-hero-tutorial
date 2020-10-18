@@ -1,0 +1,33 @@
+.hero-list {
+    max-width: 150px;
+    height: 30px;
+    list-style-type: none;
+    background-color: rgb(235, 233, 233);
+    color: rgb(131, 131, 131);
+    margin-bottom: 10px;
+    display:flex;
+    align-items: center;
+    border-radius: 5px;
+
+    .badge {
+        height: 100%;
+        width: 25px;
+        background-color: rgb(134, 134, 250);
+        color: white;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .hero-name {
+        text-indent: 10px;
+    }
+}
+
+.selected {
+    background-color:rgb(180, 180, 255);
+    color:white;
+}
